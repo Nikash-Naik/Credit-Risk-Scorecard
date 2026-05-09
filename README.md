@@ -1,4 +1,5 @@
 ﻿# Credit Default Risk Scorecard
+![CI](https://github.com/Nikash-Naik/Credit-Risk-Scorecard/actions/workflows/ci.yml/badge.svg)
 
 A binary classification project that predicts loan default risk using the Lending Club dataset (2.26M loans issued 2007-2018). Compares a logistic regression baseline against an XGBoost challenger, with full leakage control, calibration diagnostics, SHAP explainability, business threshold analysis, and a deployment-ready FastAPI scoring service with JWT authentication and PSI drift monitoring.
 
