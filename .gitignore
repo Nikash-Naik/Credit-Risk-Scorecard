@@ -1,0 +1,44 @@
+# Data files (too large for GitHub)
+*.csv
+*.csv.gz
+*.parquet
+
+# Trained models / monitoring artefacts (regeneratable from train_model.py)
+*.pkl
+*.joblib
+*.npy
+models/threshold_backtest.csv
+models/threshold_backtest.png
+
+# Test / coverage artefacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.python-version
+
+# Environments
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# SQLite database (contains user accounts)
+*.db
+users.db

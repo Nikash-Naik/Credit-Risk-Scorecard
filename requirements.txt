@@ -1,0 +1,12 @@
+# Python 3.13
+# Notebook / analysis dependencies only.
+# For the FastAPI scoring service, also install requirements-api.txt
+scikit-learn==1.8.0
+xgboost==3.2.0
+pandas==2.3.3
+numpy==2.4.4
+matplotlib==3.10.9
+seaborn==0.13.2
+shap==0.51.0
+joblib==1.5.3
+jupyter

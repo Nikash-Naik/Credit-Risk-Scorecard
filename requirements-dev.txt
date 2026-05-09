@@ -1,0 +1,5 @@
+﻿# Test dependencies. Install in addition to requirements.txt and requirements-api.txt:
+#   pip install -r requirements-dev.txt
+pytest
+pytest-cov
+httpx

@@ -1,0 +1,8 @@
+# FastAPI scoring service dependencies.
+# Install in addition to requirements.txt to run the API.
+fastapi
+uvicorn[standard]
+python-jose[cryptography]
+bcrypt
+sqlalchemy
+email-validator
